@@ -5,7 +5,7 @@
     <title>simpleform</title>
 </head>
 <body>
-<form action="simpleform.html">
+<form action="simpleform.html" method="get" class=" .wufoo">
     <h2>order form</h2>
     <p>What would you like to buy?</p>
     <select name="Sofm" id=Sofm"">
@@ -16,6 +16,32 @@
         <option value="F">F</option>
         <option value="G">G</option>
     </select>
+    <br>
+    <p>How many would you like to order?</p>
+    <input type="radio" name="rd" >1 - 10$ <br>
+    <input type="radio" name="rd" >2 - 20$ <br>
+    <input type="radio" name="rd" >3 - 25$ <br>
+    <br>
+    <p>Name <span style="color: red">*</span></p>
+    <input type="text" name="firstname" placeholder="Firstname" size="50">
+    <input type="text" name="lastname" placeholder="Lastname" size="50">
+    <br>
+    <p>Email</p>
+
+    <input type="text" name="email" size="50">
+    <br>
+    <p>Phone Number</p>
+
+    <input type="text" name="phone1" size="5"> -
+    <input type="text" name="phone2" size="5"> -
+    <input type="text" name="phone3" size="5">
+    <p><input type="button" name="btsubmit" value="Submit"></p>
+    <style>
+        .wufoo{
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
+
 </form>
 </body>
 </html>
