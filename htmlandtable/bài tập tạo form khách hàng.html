@@ -7,6 +7,19 @@
 <style>
     table {
         text-align: center;
+        width: 80%;
+        border-collapse: collapse;
+    }
+    th,td{
+        padding: 10px;
+    }
+    tr ~ td{
+        text-align: left;
+    }
+    .A{
+        text-align: left;
+        font-weight: bold;
+
     }
 
 </style>
@@ -55,15 +68,15 @@
         <tr>
 
 
-            <td></td>
-            <td>Strongly Disagree</td>
-            <td>Disagree</td>
-            <td>Agre</td>
-            <td>STrongly Agree</td>
+            <th></th>
+            <th>Strongly Disagree</th>
+            <th>Disagree</th>
+            <th>Agre</th>
+            <th>STrongly Agree</th>
 
         </tr>
         <tr>
-            <th>Our products are priced fairly.</th>
+            <td class="A" >Our products are priced fairly.</td>
             <td><input type="radio" name="1"><br>1</td>
             <td><input type="radio" name="1"><br>2</td>
             <td><input type="radio" name="1"><br>3</td>
@@ -71,7 +84,7 @@
 
         </tr>
         <tr>
-            <th>Our Products are high quality.</th>
+            <td class="A">Our Products are high quality.</td>
             <td><input type="radio" name="2"><br>1</td>
             <td><input type="radio" name="2"><br>2</td>
             <td><input type="radio" name="2"><br>3</td>
@@ -79,7 +92,7 @@
 
         </tr>
         <tr>
-            <th>You would recommend our product to a friend or coworker.</th>
+            <td class="A">You would recommend our product to a friend or coworker.</td>
             <td><input type="radio" name="3"><br>1</td>
             <td><input type="radio" name="3"><br>2</td>
             <td><input type="radio" name="3"><br>3</td>
